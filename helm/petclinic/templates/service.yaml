@@ -11,6 +11,6 @@ spec:
     app: petclinic-app
   type: LoadBalancer
   ports:
-  - nodePort: 32752
-    port: 8082
-    targetPort: 8082
+  - nodePort: 32750
+    port: 8080
+    targetPort: 80820
